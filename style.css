@@ -1,0 +1,43 @@
+.exercise, article {
+  border: 1px solid red;
+}
+.exercise-title {
+  color: green;
+  text-decoration: underline;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+article {
+  border-color: green;
+  padding: 1rem;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  color: red;
+}
+
+article:nth-child(1) {
+  color: blue;
+}
+
+article:nth-child(3) {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
